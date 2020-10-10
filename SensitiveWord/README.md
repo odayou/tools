@@ -1,3 +1,4 @@
+# 作用：判断、过滤文本中出现的敏感词
 ## test
 ``` js
 var sensitiveWord = new SensitiveWord(['sb','草泥马',"萝莉","泥马","草d泥",'日', 'fuck'])
