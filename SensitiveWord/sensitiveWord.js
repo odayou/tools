@@ -4,7 +4,6 @@
 class SensitiveWord {
   constructor(sensitiveWordList) {
     this.isReplace = true
-    this._sensitiveWordList = sensitiveWordList
     this._sensitiveMap = this.makeSensitiveMap(sensitiveWordList)
   }
 
