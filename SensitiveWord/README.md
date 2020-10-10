@@ -15,5 +15,6 @@ sensitiveWord.filterWord('草1泥泥马') // {passed: false, txt: "草1泥泥马
 sensitiveWord.isReplace = true
 sensitiveWord.filterWord('草1泥泥马', 'aaa') // {padded: false, txt: "草1泥aaa"}
 
+// 4.
 sensitiveWord.filterWord('good words', 'aaa') // {padded: true, txt: "good words"}
 ```
