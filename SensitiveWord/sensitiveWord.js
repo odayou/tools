@@ -101,6 +101,6 @@ class SensitiveWord {
         }
       }
     }
-    return {passed: hasSensitiveWord, txt: txt};
+    return {passed: !hasSensitiveWord, txt: txt};
   }
 }
